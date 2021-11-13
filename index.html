@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiamento</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Calcule seu financiamento </div>
+
+        <div class="input">
+             <input placeholder="Qual sua renda mensal?" type="number" id='renda' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual o valor do bem?" type="number" id='bem' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="Qual o valor da entrada?"  type="number" id='entrada' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder ="Qual a taxa de juros?" type="number" id="juros" required="required">
+        </div>
+
+        <div class="input">
+            <input placeholder ="Quantas parcelas?" type="number" id="parcelas" required="required">
+          </div>
+
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>  
+
+      <div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
